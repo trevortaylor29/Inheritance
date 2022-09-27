@@ -1,0 +1,13 @@
+import g_PersonClass as pc1
+
+name = 'john'
+address = 'asfsadf'
+phone = '123123123'
+number = '2323'
+mail_list = True
+
+person1 = pc1.Person(name,address,phone)
+
+customer1 = pc1.Customer(name, address, phone, number, mail_list)
+
+customer1.print_person()

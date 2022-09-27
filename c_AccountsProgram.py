@@ -1,7 +1,7 @@
 # This program creates an instance of the SavingsAccount
 # class and an instance of the CD account.
 
-import AccountsClass as accounts
+import c_AccountsClass as accounts
 
 def main():
     # Get the account number, interest rate,
